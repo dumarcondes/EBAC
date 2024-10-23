@@ -1,0 +1,58 @@
+* {
+    font-family: "Ubuntu";
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+header {
+    margin-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 40px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: #2b81c2;
+    color: white;
+    border: none;
+}
+
+.delete-btn {
+    margin-left: 10px; /* Espaço entre o texto da tarefa e o botão */
+    background-color: green; /* Cor de fundo vermelha para o botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove as bordas do botão */
+    padding: 5px 10px; /* Espaçamento interno */
+    cursor: pointer; /* Mostra a mãozinha ao passar o mouse */
+    font-size: 14px; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.delete-btn:hover {
+    background-color: darkred; /* Cor mais escura ao passar o mouse */
+}
